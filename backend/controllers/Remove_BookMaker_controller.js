@@ -1,6 +1,6 @@
 const ErrorHandler = require("../utills/Errorhandler");
 const catchAsyncErrors = require("../utills/catchAsyncErrors");
-const Bookmark = require("../models/bookmark_shema");
+const Bookmark = require("../models/bookmark_schema");
 
 exports.Remove_BookMark_Contest = catchAsyncErrors(async (req, res, next) => {
     try {
