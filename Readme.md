@@ -79,7 +79,7 @@ A model is created with the user's email and bookmarks, where email is a string 
 
 - **/controllers**: Contains the main logic to implement the API endpoints.
 - **/config**: Contains the database connection.
-- **/models**: Contains the schema for bookmarks.
+- **/models**: Contains the schema for bookmarks and Youtube Links.
 - **/routes**: Contains the path routes for the endpoints.
 - **index.js**: Contains the main server logic. Run the server using the command `node index.js`.
 
